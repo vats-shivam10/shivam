@@ -1,4 +1,4 @@
-resource "aws_security_group" "shivam_sg" {
+resource "aws_security_group" "shivam_secg" {
   name        = "shivam_sg"
   description = "Allow TLS inbound traffic"
 
